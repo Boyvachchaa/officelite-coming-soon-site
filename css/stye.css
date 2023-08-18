@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+header {
+  padding-top: 46px;
+  background-image: url(../assets/home/bg-pattern-header.svg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-color: #fafafa;
+  background-position: center -130px;
+  padding-bottom: 725px;
+}
+
+img.logo {
+  display: block;
+  margin: auto;
+}
+
+img.heroImg {
+  padding-top: 80px;
+  width: 46.5%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333950;
+  line-height: 48px;
+  text-align: center;
+  font-size: 2.22rem;
+  margin-bottom: 24px;
+}
+
+.secondary {
+  width: 93.7%;
+  margin: 64px auto;
+  padding: 0 42px;
+}
+
+p {
+  font-size: 0.88rem;
+  color: #747b95;
+  text-align: center;
+  line-height: 26px;
+  margin: 0px auto 24px;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: -690px;
+  z-index: 2;
+}
+
+.card {
+  width: 600px;
+  max-width: 87.2%;
+  margin: 0 auto 32px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  padding-top: 40px;
+}
+.card h2 {
+  font-size: 1.1rem;
+  line-height: 28px;
+  font-weight: 600;
+}
+.card h3 {
+  font-size: 3.1rem;
+  line-height: 64px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+.card h4 {
+  margin-top: 8px;
+  font-size: 0.89rem;
+  line-height: 28px;
+  margin-bottom: 56px;
+}
+.card button {
+  margin-top: 16px;
+  color: #5275ff;
+}
+
+.pro {
+  background-color: #5275ff;
+  background-image: url(/assets/home/bg-pattern-header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}
+.pro p {
+  color: white;
+}
+
+.ultimate {
+  background-color: white;
+}
+.ultimate a {
+  background-color: #e0f0ef;
+  color: #5275ff;
+}
+
+footer {
+  background-color: #25293a;
+  background-image: url(../assets/home/bg-pattern-footer.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  margin-top: -1510px;
+  padding-bottom: 40px;
+  z-index: 1;
+  position: relative;
+  color: white;
+}
+
+.timer {
+  padding-top: 800px;
+  text-align: center;
+  margin: auto;
+}
+.timer h5 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.888rem;
+  line-height: 48px;
+  font-weight: 600;
+}
+.timer time {
+  margin-left: 5px;
+  color: #5275ff;
+}
+.timer button {
+  margin-top: 40px;
+  margin-bottom: 82px;
+}
+
+.timerDisplay {
+  width: 327px;
+  max-width: 87.3%;
+  margin: auto;
+}
+
+.countdown {
+  display: flex;
+}
+.countdown p {
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  max-width: 20%;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  background-color: #333950;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 48px;
+  border-radius: 4px;
+}
+.countdown span {
+  font-size: 0.7rem;
+  line-height: 28px;
+}
+
+.invalidInput {
+  border-bottom: 1px solid red;
+}/*# sourceMappingURL=stye.css.map */

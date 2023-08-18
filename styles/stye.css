@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+header {
+  padding-top: 46px;
+  background-image: url(../assets/home/bg-pattern-header.svg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-color: #fafafa;
+  background-position: center -130px;
+  padding-bottom: 725px;
+}
+
+img.logo {
+  display: block;
+  margin: auto;
+}
+
+img.heroImg {
+  padding-top: 80px;
+  width: 46.5%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333950;
+  line-height: 48px;
+  text-align: center;
+  font-size: 2.22rem;
+  margin-bottom: 24px;
+}
+
+.secondary {
+  width: 93.7%;
+  margin: 64px auto;
+  padding: 0 42px;
+}
+
+p {
+  font-size: 0.88rem;
+  color: #747b95;
+  text-align: center;
+  line-height: 26px;
+  margin: 0px auto 24px;
+}
+
+a {
+  width: 171px;
+  padding: 15px 46px;
+  background-color: #5275ff;
+  font-weight: 600;
+  margin: auto;
+  display: block;
+  line-height: 28px;
+  font-size: 0.88rem;
+  color: white;
+  border-radius: 28px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: -690px;
+  z-index: 2;
+}
+
+.card {
+  width: 600px;
+  max-width: 87.2%;
+  margin: 0 auto 32px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  padding-top: 40px;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.card h3 {
+  font-size: 3.1rem;
+  line-height: 64px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.card h4 {
+  margin-top: 8px;
+  font-size: 0.89rem;
+  line-height: 28px;
+  margin-bottom: 56px;
+}
+
+.card button {
+  margin-top: 16px;
+  color: #5275ff;
+}
+
+.basic {
+  background-color: white;
+}
+
+.basic a {
+  background-color: #cedddd;
+  color: #5275ff;
+}
+
+.pro {
+  background-color: #5275ff;
+  background-image: url(/assets/home/bg-pattern-header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+.pro p {
+  color: white;
+}
+
+.pro a {
+  background-color: white;
+  color: #5275ff;
+}
+
+.ultimate {
+  background-color: white;
+}
+
+.ultimate a {
+  background-color: #e0f0ef;
+  color: #5275ff;
+}
+
+footer {
+  background-color: #25293a;
+  background-image: url(../assets/home/bg-pattern-footer.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  margin-top: -1510px;
+  padding-bottom: 40px;
+  z-index: 1;
+  position: relative;
+  color: white;
+}
+
+.timer {
+  padding-top: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+.timer h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.888rem;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.timer time {
+  margin-left: 5px;
+  color: #5275ff;
+}
+
+.timer button {
+  margin-top: 40px;
+  margin-bottom: 82px;
+}
+
+.timerDisplay {
+  width: 327px;
+  max-width: 87.3%;
+  margin: auto;
+}
+
+.countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.countdown p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 72px;
+  max-width: 20%;
+  height: 92px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333950;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 48px;
+  border-radius: 4px;
+}
+
+.countdown span {
+  font-size: 0.7rem;
+  line-height: 28px;
+}
+
+/*
+a {
+    padding: 10px 10px;
+    background-color: $btn-bg-color;
+    font-weight: 600;
+    margin: auto;
+    display: block;
+    line-height: 28px;
+    font-size: 0.88rem;
+    color: white;
+    border-radius: 28px;
+    width: 169px;
+    text-decoration: none;
+} */
+.errorDisplay {
+  visibility: visible;
+}
+
+.invalidInput {
+  border-bottom: 1px solid red;
+}
+
+.signupHeader {
+  padding-bottom: 625px;
+}
+
+.signupTimer {
+  padding-top: 0px;
+}
+
+.signupFooter {
+  margin-top: -790px;
+  height: 320px;
+  border: 13px;
+}
+
+form#formsection {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 13px;
+}
+
+label {
+  position: relative;
+  width: 84%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px auto;
+  padding: 5px;
+  font-size: 1rem;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+input {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-bottom: 1px solid #0a0505;
+}
+
+select#plan-select {
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+input.submitForm {
+  background: #5275ff;
+  padding: 20px;
+  width: 279px;
+  max-width: 90%;
+  border-radius: 28px;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.signupMain {
+  top: -578px;
+}
+
+.confirmation {
+  right: 10px;
+  position: absolute;
+  visibility: hidden;
+}
+
+img.error {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+}
+
+.confirmed {
+  visibility: visible !important;
+}
+
+.countdownSignup p {
+  background-color: #d1ece5;
+  color: #5275ff;
+}
+
+@media screen and (min-width: 720px) {
+  .logoContainer,
+  .contentWrapper {
+    width: 82.7%;
+    margin: auto;
+  }
+  header {
+    background-size: 69%;
+    background-position: 170% -25%;
+  }
+  img.logo {
+    display: block;
+    margin: 0;
+  }
+  img.heroImg {
+    width: 91%;
+  }
+  .contentWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .secondary {
+    width: 76%;
+    padding: 0;
+  }
+  .secondary h1 {
+    text-align: left;
+  }
+  .secondary p {
+    text-align: left;
+  }
+  .secondary button {
+    margin-left: 0;
+  }
+  .card {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    justify-items: self-start;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .card h3 {
+    margin-top: 0px;
+  }
+  .card h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .card p {
+    margin: 0;
+  }
+  .card button {
+    margin: 0;
+  }
+  .card a {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  footer {
+    margin-top: -1120px;
+  }
+  footer .timer {
+    padding-top: 462px;
+  }
+  .contentWrapperSignUp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contentWrapperSignUp h1 {
+    text-align: center;
+  }
+  .contentWrapperSignUp .secondary p {
+    text-align: center;
+  }
+  .signupHeader {
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 3.1rem;
+    line-height: 64px;
+    margin-bottom: 24px;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+  header {
+    padding-bottom: 960px;
+    background-position: 200% -104%;
+    background-size: auto;
+  }
+  .logoContainer,
+  .contentWrapper {
+    width: 70.15%;
+    margin: auto;
+  }
+  main {
+    top: -875px;
+    width: 50.15%;
+    margin: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .card {
+    width: 350px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .card h3 {
+    margin-top: 40px;
+  }
+  .card h4 {
+    margin-top: 8px;
+    margin-bottom: 56px;
+  }
+  .card p {
+    margin: 0px auto 16px;
+  }
+  .secondary {
+    width: 41.3%;
+    margin-left: 0;
+  }
+  .timer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 70.15%;
+  }
+  .timer button {
+    margin-right: 15px;
+  }
+  .timerDisplay {
+    margin-left: 15px;
+  }
+  a {
+    margin: auto 0;
+  }
+  .signupMain {
+    top: 78px;
+    right: 220px;
+    position: absolute;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 35.15%;
+  }
+  .signupFooter {
+    top: 0;
+    position: absolute;
+    width: 33%;
+    margin-top: 0;
+    right: 0;
+    height: 100vh;
+  }
+  .signupHeader {
+    padding-bottom: 0;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .container {
+    width: 95%;
+    max-width: 1490px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=stye.css.map */
